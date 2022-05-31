@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		042F4BB728434A9900D175EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F4BB628434A9900D175EF /* ViewController.swift */; };
 		042F4BB928435AD000D175EF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F4BB828435AD000D175EF /* SplashScreen.swift */; };
+		0474B59928459C79002784EA /* animeCharsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474B59828459C79002784EA /* animeCharsData.json */; };
+		0474B59C28459D60002784EA /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B59B28459D60002784EA /* Main.swift */; };
+		0474B59F28459E41002784EA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B59E28459E41002784EA /* CircleImage.swift */; };
+		0474B5A12845A1FD002784EA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A02845A1FD002784EA /* ModelData.swift */; };
+		0474B5A32845A32B002784EA /* AnimeCharData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A22845A32B002784EA /* AnimeCharData.swift */; };
 		04FA0676283C714900EFA51E /* MojiMokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA0675283C714900EFA51E /* MojiMokuApp.swift */; };
 		04FA0678283C714900EFA51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA0677283C714900EFA51E /* ContentView.swift */; };
 		04FA067A283C714B00EFA51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA0679283C714B00EFA51E /* Assets.xcassets */; };
@@ -38,6 +43,11 @@
 /* Begin PBXFileReference section */
 		042F4BB628434A9900D175EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		042F4BB828435AD000D175EF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		0474B59828459C79002784EA /* animeCharsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animeCharsData.json; sourceTree = "<group>"; };
+		0474B59B28459D60002784EA /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		0474B59E28459E41002784EA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0474B5A02845A1FD002784EA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0474B5A22845A32B002784EA /* AnimeCharData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharData.swift; sourceTree = "<group>"; };
 		04FA0672283C714900EFA51E /* MojiMoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojiMoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA0675283C714900EFA51E /* MojiMokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiMokuApp.swift; sourceTree = "<group>"; };
 		04FA0677283C714900EFA51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +88,7 @@
 		0474B5912845994F002784EA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0474B59A28459CE5002784EA /* Home */,
 				042F4BB828435AD000D175EF /* SplashScreen.swift */,
 			);
 			path = View;
@@ -87,8 +98,34 @@
 			isa = PBXGroup;
 			children = (
 				042F4BB628434A9900D175EF /* ViewController.swift */,
+				0474B5A02845A1FD002784EA /* ModelData.swift */,
+				0474B5A22845A32B002784EA /* AnimeCharData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0474B59328459ACF002784EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0474B59828459C79002784EA /* animeCharsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0474B59A28459CE5002784EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0474B59B28459D60002784EA /* Main.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0474B59D28459E15002784EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0474B59E28459E41002784EA /* CircleImage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		04FA0669283C714900EFA51E = {
@@ -114,6 +151,8 @@
 		04FA0674283C714900EFA51E /* MojiMoku */ = {
 			isa = PBXGroup;
 			children = (
+				0474B59D28459E15002784EA /* Helpers */,
+				0474B59328459ACF002784EA /* Resources */,
 				0474B5922845995C002784EA /* Model */,
 				0474B5912845994F002784EA /* View */,
 				04FA0675283C714900EFA51E /* MojiMokuApp.swift */,
@@ -255,6 +294,7 @@
 			files = (
 				04FA067D283C714B00EFA51E /* Preview Assets.xcassets in Resources */,
 				04FA067A283C714B00EFA51E /* Assets.xcassets in Resources */,
+				0474B59928459C79002784EA /* animeCharsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474B5A32845A32B002784EA /* AnimeCharData.swift in Sources */,
+				0474B59C28459D60002784EA /* Main.swift in Sources */,
 				042F4BB928435AD000D175EF /* SplashScreen.swift in Sources */,
 				042F4BB728434A9900D175EF /* ViewController.swift in Sources */,
 				04FA0678283C714900EFA51E /* ContentView.swift in Sources */,
 				04FA0676283C714900EFA51E /* MojiMokuApp.swift in Sources */,
+				0474B59F28459E41002784EA /* CircleImage.swift in Sources */,
+				0474B5A12845A1FD002784EA /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

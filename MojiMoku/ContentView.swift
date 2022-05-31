@@ -11,9 +11,8 @@ struct ContentView: View {
     
     var body: some View {
         ZStack{
-            Text("Welcome")
-                .foregroundColor(.purple)
-                .font(.system(size: 30))
+            
+            CircleImage(image: AsyncImage(url: URL(string: ModelData().animeChars[9].character_image)))
         }
     }
 }
