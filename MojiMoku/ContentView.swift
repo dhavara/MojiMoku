@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .explore
     
+    enum Tab{
+        case explore
+        case list
+    }
     var body: some View {
-        ZStack{
+        TabView(selection: $selection){
+            HomeMain()
+                .tabItem{
+                    Label("Explore", systemImage: "globe")
+                }
+                .tag(Tab.explore)
             
-            CircleImage(image: AsyncImage(url: URL(string: ModelData().animeChars[9].character_image)))
+            FavList()
+                .tabItem{
+                    Label("List", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(ModelData())
     }
 }

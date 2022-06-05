@@ -17,4 +17,12 @@ struct AnimeCharData: Hashable, Codable, Identifiable {
     var gender: String
     var name: String
     var desc: String
+    var favorite: Bool
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case discover = "Discovery"
+        case newly = "Newly Added"
+        case popular = "Most Popular"
+    }
 }

@@ -11,6 +11,12 @@ import Combine
 final class ModelData: ObservableObject{
     @Published var animeChars: [AnimeCharData] = load("animeCharsData.json")
     
+    var categories: [String: [AnimeCharData]]{
+        Dictionary(
+            grouping: animeChars,
+            by: { $0.category.rawValue })
+    }
+    
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

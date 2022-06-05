@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MojiMokuApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
-            SplashScreen()
+            ContentView()
+                .environmentObject(modelData)
         }
     }
 }

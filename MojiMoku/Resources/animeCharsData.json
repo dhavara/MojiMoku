@@ -7,7 +7,9 @@
   "origin": "Naruto",
   "gender": "Male",
   "name": "Naruto Uzumaki",
-  "desc": "Naruto Uzumaki is a character from the anime Naruto."
+  "desc": "Naruto Uzumaki is a character from the anime Naruto.",
+  "category": "Discovery",
+  "favorite": true
 },
 {
   "id": 10822,
@@ -17,7 +19,9 @@
   "origin": "Naruto",
   "gender": "Male",
   "name": "Sasuke Uchiha",
-  "desc": "Sasuke Uchiha is a character from the anime Naruto."
+  "desc": "Sasuke Uchiha is a character from the anime Naruto.",
+  "category": "Discovery",
+  "favorite": true
 },
 {
   "id": 15533,
@@ -27,7 +31,9 @@
   "origin": "Dragon Ball Z",
   "gender": "Male",
   "name": "Goku",
-  "desc": "Goku is a character from the anime Dragon Ball Z."
+  "desc": "Goku is a character from the anime Dragon Ball Z.",
+  "category": "Discovery",
+  "favorite": false
 },
 {
   "id": 10607,
@@ -37,7 +43,9 @@
   "origin": "One Piece",
   "gender": "Male",
   "name": "Monkey D. Luffy",
-  "desc": "Monkey D. Luffy is a character from the anime One Piece."
+  "desc": "Monkey D. Luffy is a character from the anime One Piece.",
+  "category": "Most Popular",
+  "favorite": true
 },
 {
   "id": 60981,
@@ -47,7 +55,9 @@
   "origin": "Attack on Titan",
   "gender": "Male",
   "name": "Eren Yeager",
-  "desc": "Eren Yeager is a character from the anime Attack on Titan."
+  "desc": "Eren Yeager is a character from the anime Attack on Titan.",
+  "category": "Most Popular",
+  "favorite": false
 },
 {
   "id": 63415,
@@ -57,7 +67,9 @@
   "origin": "Attack on Titan",
   "gender": "Male",
   "name": "Levi Ackerman",
-  "desc": "Levi Ackerman is a character from the anime Attack on Titan."
+  "desc": "Levi Ackerman is a character from the anime Attack on Titan.",
+  "category": "Most Popular",
+  "favorite": false
 },
 {
   "id": 76951,
@@ -67,7 +79,9 @@
   "origin": "Re:ZERO -Starting Life in Another World-",
   "gender": "Female",
   "name": "Rem",
-  "desc": "Rem is a character from the anime Re:ZERO -Starting Life in Another World-."
+  "desc": "Rem is a character from the anime Re:ZERO -Starting Life in Another World-.",
+  "category": "Most Popular",
+  "favorite": true
 },
 {
   "id": 78476,
@@ -77,7 +91,9 @@
   "origin": "Miss Kobayashi's Dragon Maid",
   "gender": "Female",
   "name": "Kanna Kamui",
-  "desc": "Kanna Kamui is a character from the anime Miss Kobayashi's Dragon Maid."
+  "desc": "Kanna Kamui is a character from the anime Miss Kobayashi's Dragon Maid.",
+  "category": "Discovery",
+  "favorite": true
 },
 {
   "id": 109226,
@@ -87,7 +103,9 @@
   "origin": "Tokyo Revengers",
   "gender": "Female",
   "name": "Hinata Tachibana",
-  "desc": "Hinata Tachibana is a character from the anime Tokyo Revengers."
+  "desc": "Hinata Tachibana is a character from the anime Tokyo Revengers.",
+  "category": "Discovery",
+  "favorite": false
 },
 {
   "id": 116092,
@@ -97,7 +115,9 @@
   "origin": "Spy x Family",
   "gender": "Female",
   "name": "Anya Forger",
-  "desc": "Anya Forger is a character from the anime Spy x Family."
+  "desc": "Anya Forger is a character from the anime Spy x Family.",
+  "category": "Most Popular",
+  "favorite": true
 },
 {
   "id": 116093,
@@ -107,6 +127,8 @@
   "origin": "Spy x Family",
   "gender": "Female",
   "name": "Yor Forger",
-  "desc": "Yor Forger is a character from the anime Spy x Family."
+  "desc": "Yor Forger is a character from the anime Spy x Family.",
+  "category": "Most Popular",
+  "favorite": true
 }
 ]

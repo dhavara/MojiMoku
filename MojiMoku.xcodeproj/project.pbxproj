@@ -10,10 +10,17 @@
 		042F4BB728434A9900D175EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F4BB628434A9900D175EF /* ViewController.swift */; };
 		042F4BB928435AD000D175EF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F4BB828435AD000D175EF /* SplashScreen.swift */; };
 		0474B59928459C79002784EA /* animeCharsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474B59828459C79002784EA /* animeCharsData.json */; };
-		0474B59C28459D60002784EA /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B59B28459D60002784EA /* Main.swift */; };
 		0474B59F28459E41002784EA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B59E28459E41002784EA /* CircleImage.swift */; };
 		0474B5A12845A1FD002784EA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A02845A1FD002784EA /* ModelData.swift */; };
 		0474B5A32845A32B002784EA /* AnimeCharData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A22845A32B002784EA /* AnimeCharData.swift */; };
+		0474B5A52845A82B002784EA /* HomeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A42845A82B002784EA /* HomeMain.swift */; };
+		0474B5A72845A836002784EA /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A62845A836002784EA /* HomeItem.swift */; };
+		0474B5A92845AB2E002784EA /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5A82845AB2D002784EA /* HomeRow.swift */; };
+		0474B5AC284C6E67002784EA /* FavDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5AB284C6E67002784EA /* FavDetails.swift */; };
+		0474B5AE284C6E6E002784EA /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5AD284C6E6E002784EA /* FavList.swift */; };
+		0474B5B0284C6E75002784EA /* FavRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5AF284C6E75002784EA /* FavRow.swift */; };
+		0474B5B2284C765C002784EA /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5B1284C765C002784EA /* RoundedCorners.swift */; };
+		0474B5B4284C8D12002784EA /* FavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B5B3284C8D12002784EA /* FavButton.swift */; };
 		04FA0676283C714900EFA51E /* MojiMokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA0675283C714900EFA51E /* MojiMokuApp.swift */; };
 		04FA0678283C714900EFA51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA0677283C714900EFA51E /* ContentView.swift */; };
 		04FA067A283C714B00EFA51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA0679283C714B00EFA51E /* Assets.xcassets */; };
@@ -44,10 +51,17 @@
 		042F4BB628434A9900D175EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		042F4BB828435AD000D175EF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0474B59828459C79002784EA /* animeCharsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animeCharsData.json; sourceTree = "<group>"; };
-		0474B59B28459D60002784EA /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		0474B59E28459E41002784EA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0474B5A02845A1FD002784EA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0474B5A22845A32B002784EA /* AnimeCharData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharData.swift; sourceTree = "<group>"; };
+		0474B5A42845A82B002784EA /* HomeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMain.swift; sourceTree = "<group>"; };
+		0474B5A62845A836002784EA /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		0474B5A82845AB2D002784EA /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
+		0474B5AB284C6E67002784EA /* FavDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavDetails.swift; sourceTree = "<group>"; };
+		0474B5AD284C6E6E002784EA /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavList.swift; sourceTree = "<group>"; };
+		0474B5AF284C6E75002784EA /* FavRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavRow.swift; sourceTree = "<group>"; };
+		0474B5B1284C765C002784EA /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		0474B5B3284C8D12002784EA /* FavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavButton.swift; sourceTree = "<group>"; };
 		04FA0672283C714900EFA51E /* MojiMoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojiMoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA0675283C714900EFA51E /* MojiMokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiMokuApp.swift; sourceTree = "<group>"; };
 		04FA0677283C714900EFA51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +102,7 @@
 		0474B5912845994F002784EA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0474B5AA284C6E47002784EA /* AnimeFav */,
 				0474B59A28459CE5002784EA /* Home */,
 				042F4BB828435AD000D175EF /* SplashScreen.swift */,
 			);
@@ -115,7 +130,9 @@
 		0474B59A28459CE5002784EA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				0474B59B28459D60002784EA /* Main.swift */,
+				0474B5A42845A82B002784EA /* HomeMain.swift */,
+				0474B5A62845A836002784EA /* HomeItem.swift */,
+				0474B5A82845AB2D002784EA /* HomeRow.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -124,8 +141,20 @@
 			isa = PBXGroup;
 			children = (
 				0474B59E28459E41002784EA /* CircleImage.swift */,
+				0474B5B1284C765C002784EA /* RoundedCorners.swift */,
+				0474B5B3284C8D12002784EA /* FavButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0474B5AA284C6E47002784EA /* AnimeFav */ = {
+			isa = PBXGroup;
+			children = (
+				0474B5AB284C6E67002784EA /* FavDetails.swift */,
+				0474B5AD284C6E6E002784EA /* FavList.swift */,
+				0474B5AF284C6E75002784EA /* FavRow.swift */,
+			);
+			path = AnimeFav;
 			sourceTree = "<group>";
 		};
 		04FA0669283C714900EFA51E = {
@@ -320,13 +349,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474B5A32845A32B002784EA /* AnimeCharData.swift in Sources */,
-				0474B59C28459D60002784EA /* Main.swift in Sources */,
 				042F4BB928435AD000D175EF /* SplashScreen.swift in Sources */,
 				042F4BB728434A9900D175EF /* ViewController.swift in Sources */,
+				0474B5B0284C6E75002784EA /* FavRow.swift in Sources */,
+				0474B5A92845AB2E002784EA /* HomeRow.swift in Sources */,
 				04FA0678283C714900EFA51E /* ContentView.swift in Sources */,
+				0474B5B2284C765C002784EA /* RoundedCorners.swift in Sources */,
+				0474B5AE284C6E6E002784EA /* FavList.swift in Sources */,
+				0474B5B4284C8D12002784EA /* FavButton.swift in Sources */,
+				0474B5A72845A836002784EA /* HomeItem.swift in Sources */,
+				0474B5AC284C6E67002784EA /* FavDetails.swift in Sources */,
 				04FA0676283C714900EFA51E /* MojiMokuApp.swift in Sources */,
 				0474B59F28459E41002784EA /* CircleImage.swift in Sources */,
 				0474B5A12845A1FD002784EA /* ModelData.swift in Sources */,
+				0474B5A52845A82B002784EA /* HomeMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MojiMoku/Preview Content\"";
+				DEVELOPMENT_TEAM = K6PRZ46LFP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -513,6 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MojiMoku/Preview Content\"";
+				DEVELOPMENT_TEAM = K6PRZ46LFP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
